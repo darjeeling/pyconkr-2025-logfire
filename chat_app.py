@@ -41,7 +41,8 @@ from pydantic_ai.messages import (
 )
 
 # 'if-token-present' means nothing will be sent (and the example will work) if you don't have logfire configured
-logfire.configure(send_to_logfire='if-token-present')
+logfire.configure(service_name="chat_app", service_version="1.1.1",environment="test",
+        send_to_logfire='if-token-present')
 logfire.instrument_pydantic_ai()
 logfire.instrument_httpx()
 
