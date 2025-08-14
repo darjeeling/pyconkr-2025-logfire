@@ -1,0 +1,15 @@
+[project]
+name = "pyconkr-2025-logfire"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.116.1",
+    "locust>=2.38.1",
+    "logfire[fastapi,httpx,requests,sqlite3]>=4.3.3",
+    "pydantic-ai>=0.7.1",
+    "pydantic-ai-slim[google]>=0.7.1",
+    "python-dotenv>=1.1.1",
+    "uvicorn>=0.35.0",
+]
