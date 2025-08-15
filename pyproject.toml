@@ -8,6 +8,7 @@ dependencies = [
     "fastapi>=0.116.1",
     "locust>=2.38.1",
     "logfire[fastapi,httpx,requests,sqlite3]>=4.3.3",
+    "prometheus-fastapi-instrumentator>=7.1.0",
     "pydantic-ai>=0.7.1",
     "pydantic-ai-slim[google]>=0.7.1",
     "python-dotenv>=1.1.1",
